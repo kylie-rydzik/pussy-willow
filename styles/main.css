@@ -1,8 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #F8F8F8;
   font-family: "neuzeit-grotesk",sans-serif;
-  font-size: 4vw;
+  font-size: 14px;
   font-weight: bold;
+}
+
+h1 {
+  font-family: "eloquent-jf-pro";
+  font-size: 2rem;
+  line-height: 145%;
+  color: black;
+  font-weight: normal;
+  border-bottom: .2rem solid #FFB3D0;
+  width: 90%;
+}
+h2 {
+  font-family: "eloquent-jf-pro";
+  font-size: 1.5rem;
+  line-height: 135%;
+  color: #6577B7;
+  font-weight: normal;
+  max-width: 80%;
+  padding-left: 5%;
+}
+
+h4 {
+  color: black;
+  line-height: 145%;
+  margin-top: -5%;
 }
 
 .container {
@@ -66,16 +98,6 @@ body {
   clear: both;
 }
 
-h2 {
-  font-family: "eloquent-jf-pro";
-  font-size: 7vw;
-  line-height: 135%;
-  color: #6577B7;
-  font-weight: normal;
-  max-width: 80%;
-  padding-left: 5%;
-}
-
 #rainbow {
   position: relative;
   left: -15%;
@@ -111,21 +133,7 @@ h2 {
   padding-left: 1rem;
 }
 
-h1 {
-  font-family: "eloquent-jf-pro";
-  font-size: 11vw;
-  line-height: 145%;
-  color: black;
-  font-weight: normal;
-  border-bottom: .2rem solid #FFB3D0;
-  width: 90%;
-}
 
-h4 {
-  color: black;
-  line-height: 145%;
-  margin-top: -5%;
-}
 
 button{
   font-family: "neuzeit-grotesk",sans-serif;
@@ -203,7 +211,12 @@ button{
   width: 100%;
 }
 
-h3 {
+.editorials-single img {
+  margin: 0 2rem;
+  max-width: 100%;
+}
+
+.editorials-single h3 {
   position: absolute;
   top: 85%;
   left: 0;
