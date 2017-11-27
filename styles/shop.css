@@ -1,0 +1,31 @@
+.page-container {
+
+}
+
+.shop-triangles {
+  width: 50%;
+  margin-top: 2.5rem;
+}
+
+.shop-pic {
+  position: absolute;
+  top: 32%;
+  right: 0;
+  width: 70%;
+}
+
+.main {
+  margin-top: 16rem;
+  border: none;
+  line-height: 2.2rem;
+}
+
+.shop-text {
+  width: 50%;
+}
+
+.shop-zigzag {
+  width: 70%;
+  margin-top: 10%;
+  margin-left: -5%;
+}

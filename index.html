@@ -14,10 +14,19 @@
       <div class="bar3"></div>
     </div>
     <div>
-    <a href="#">
+    <a href="index.html">
       <img src="assets/pussyWillowWh.png" id="logo">
     </a>
     </div>
+    <ul class = "mainNavDropDown clearfix">
+      <li>Shopping appointments</li>
+      <li>Archive rental</li>
+      <li>Editorials</li>
+      <li>Happenings</li>
+      <li>The latest</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
     </nav>
 <!-- hero content -->
     <div class="hero">
@@ -36,7 +45,9 @@
       <div class="shop-container">
         <h1 class="headline">Shop</h1>
         <h4>Book a personal appointment at the Pussy Willow studio and shop the stunning collection.</h4>
-        <button type="button">Request an appointment</button>
+        <a href="shop.html" class="button">
+          <div class="button">Request an<br />appointment</div>
+        </a>
       </div>
       </div>
         <img src="assets/circle_sun.png" id="circle-sun" class="graphic">
@@ -49,7 +60,9 @@
       <div class="style-container">
         <h1 class="headline">Style</h1>
         <h4>Access Pussy Willow's fashion-forward, rare vintage assortment for shoots and design inspiration.</h4>
-        <button type="button">Rent from the archive</button>
+        <a href="#" class="button">
+          <div class="button">Rent from<br />the archive</div>
+        </a>
       </div>
       </div>
       <img src="assets/wave_stripe.png" id="wave-stripe" class="graphic">
@@ -60,27 +73,43 @@
         <div class="editorials-container">
           <h1 class="headline">More Looks...</h1>
       </div>
-      <div class="editorials-single">
-        <a href="#">
-          <img src="assets/banana_pic.jpg" id="banana-pic" class="editorials-photo">
+      <div class="editorials-single-container">
+        <a href="#" class="editorials-single">
+          <img src="assets/banana_pic.jpg">
           <h3>Fruity fashion</h3>
         </a>
       </div>
-      <button type="button">See all<br />editorials</button>
+      <div class="button-container-editorials">
+        <a href="#" class="button button-editorials">
+          <div class="button">See all<br />editorials</div>
+        </a>
+      </div>
     </div>
 <!-- "Footer" -->
-    <div class="footer">
-      <div class="menu-footer">
+    <div class="footer-container">
         <a href="#" class="menu-link footer">About</a>
         <a href="#" class="menu-link footer">Contact</a>
-      </div>
-      <h5 class="footer">Join our mailing list!</h5>
-      <h4 class="footer">Get updates and hear about new events</h4>
+        <h5 class="footer">Join our mailing list!</h5>
+        <h4 class="footer">Get updates and hear about new events</h4>
+        <div class="form">
+          <form action="/action_page.php" method="post">
+            <input type="text" name="email" value="Enter your email"><br><br>
+            <input type="submit" value="Join">
+          </form>
+        </div>
+        <a href="#">
+          <img src="assets/instagram.png" class="instagram">
+        </a>
     </div>
   <script>
   function myFunction(x) {
       x.classList.toggle("change");
   }
+  </script>
+  <script>
+  $('.container').on('click', function(){
+  $('.mainNavDropDown').slideToggle(500);
+ });
   </script>
   </body>
 </html>
