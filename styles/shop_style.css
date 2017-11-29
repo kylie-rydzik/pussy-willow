@@ -1,0 +1,92 @@
+/* Shop and Style pages */
+
+.main {
+  margin-top: 14rem;
+  margin-left: .5rem;
+  border: none;
+  line-height: 2.2rem;
+}
+
+.text {
+  margin-left: .5rem;
+  width: 50%;
+  line-height: 1.15rem;
+}
+
+.zigzag {
+  width: 70%;
+  margin-top: 10%;
+  margin-left: -5%;
+}
+
+form {
+  margin-top: 3rem;
+  width: 100%;
+  margin-left: .5rem;
+}
+
+.shop-form input[type=text] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 70%;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+  padding-top: .5rem;
+}
+
+.shop-form input[type=submit] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  background: #FFB3D0;
+  border: none;
+  width: 12rem;
+  border-radius: 0px;
+  text-align: center;
+  color: white;
+  line-height: 1.1rem;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* Make an appointment - Shop */
+
+.shop-triangles {
+  width: 50%;
+  margin-top: 2.5rem;
+  margin-left: .5rem;
+}
+
+.shop-pic {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  width: 70%;
+}
+
+/* Rent from archive - Style */
+
+.style-tri {
+  width: 60%;
+  margin-top: 2.5rem;
+  margin-left: -15%;
+}
+
+.style-pic {
+  position: absolute;
+  right: -5%;
+  width: 85%;
+  margin-top: 3.5rem;
+}
+
+.style {
+  margin-top: 12rem;
+}
+
+.text-style {
+  width: 70%;
+}

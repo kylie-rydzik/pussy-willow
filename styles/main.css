@@ -19,7 +19,7 @@ h1 {
   color: black;
   font-weight: normal;
   border-bottom: .2rem solid #FFB3D0;
-  width: 90%;
+  width: 95%;
 }
 h2 {
   font-family: "eloquent-jf-pro";
@@ -35,6 +35,19 @@ h4 {
   color: black;
   line-height: 145%;
   margin-top: -5%;
+}
+
+.button {
+  background: #FFB3D0;
+  border: none;
+  width: 9rem;
+  border-radius: 0px;
+  text-align: center;
+  color: white;
+  line-height: 1.2rem;
+  text-decoration: none;
+  padding: .5rem 0;
+  font-size: 1rem;
 }
 
 /* Nav */
@@ -166,18 +179,6 @@ h4 {
   padding-left: 1rem;
 }
 
-.button {
-  background: #FFB3D0;
-  border: none;
-  width: 7.5rem;
-  border-radius: 0px;
-  text-align: center;
-  color: white;
-  line-height: 1.1rem;
-  text-decoration: none;
-  padding: .2rem 0;
-}
-
 #circle-sun {
   width: 50%;
   float: right;
@@ -275,6 +276,7 @@ h4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
 }
 
 /* Footer */

@@ -1,0 +1,64 @@
+.entry-date {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.entry-title {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "eloquent-jf-pro";
+  font-weight: normal;
+  line-height: 2.4rem;
+  max-width: 80%;
+  margin-top: 2rem;
+}
+
+.entry-pic {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+  margin-top: 2rem;
+}
+
+.entry-description {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.button-entry {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin-top: 3rem;
+}
+
+/* Events */
+
+.entry-text {
+  text-align: center;
+}
+
+.entry-date-time, .entry-location {
+  font-weight: 300;
+  line-height: 1.3rem;
+  margin-top: 1%;
+}
+
+.when, .where {
+  margin: 0;
+  padding: 0;
+  margin-top: 8%;
+}

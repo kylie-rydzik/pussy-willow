@@ -1,0 +1,86 @@
+.title-zigzag {
+  z-index: -1;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  width: 50%;
+}
+
+.title-text {
+  position: absolute;
+  text-align: center;
+  margin-top: -2.5rem;
+  border: none;
+}
+
+.entry-single-container {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+  padding: 0 .5%;
+}
+
+.entry-single img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.entry-text {
+  position:absolute;
+  top:50%;
+  left:50%;
+  text-align:center;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  color: black;
+  font-weight: 300;
+  background-color: white;
+  text-decoration: none;
+}
+
+.entry-title {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "eloquent-jf-pro";
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 2.4rem;
+  max-width: 80%;
+  border-bottom: .2rem solid #FFB3D0;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.latest-text-bottom {
+  padding: 2% 0;
+}
+
+/* Events */
+
+.events-title {
+  margin-top: 1.5rem;
+}
+
+.when {
+  font-weight: bold;
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.date-time {
+  line-height: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
